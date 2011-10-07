@@ -37,8 +37,6 @@
 
 #include "config1.h"	/* should auto-detect MSDOS, MAC, AMIGA, and WIN32 */
 
-#define HACKDIR "/Users/dirk/local/games/lib/nethackdir"
-
 /* Windowing systems...
  * Define all of those you want supported in your binary.
  * Some combinations make no sense.  See the installation document.

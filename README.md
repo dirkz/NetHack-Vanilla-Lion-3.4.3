@@ -3,19 +3,22 @@
     /* Copyright (c) Stichting Mathematisch Centrum, Amsterdam, 1985. */  
     /* NetHack may be freely redistributed.  See [license] (iNetHack/blob/master/dat/license "License") for details. */  
 
-*Changes you have to make yourself:*
+By default, this install uses ~/NetHack as your installation directory.
+This is pretty much a single-player-installation.
+
+*If you'd prefer a multi-user installation you might want to change some
+of the following:*
 
 sys/unix/Makefile.top:
 
     ...
-    PREFIX	 = /Users/dirk/local # your own install directory
+    PREFIX	 = ... # your own installation directory
     ...
-    GAMEUID  = dirk # your username
-
-include/config.h:
-
-    // This #define should reflect PREFIX/GAMEDIR from Makefile.top
-    #define HACKDIR "/Users/dirk/local/games/lib/nethackdir"
+    GAMEUID  = ... # installation username
+    ...
+    CHOWN = chown
+    CHGRP = chgrp
+    ...
 
 *After that it's the usual:*
 
