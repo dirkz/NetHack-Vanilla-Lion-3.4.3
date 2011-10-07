@@ -1,9 +1,9 @@
-NetHack Vanilla 3.4.3 with patches for Lion
+# NetHack Vanilla 3.4.3 with patches for Lion
 
-/* Copyright (c) Stichting Mathematisch Centrum, Amsterdam, 1985. */  
-/* NetHack may be freely redistributed.  See [license] (iNetHack/blob/master/dat/license "License") for details. */  
+    /* Copyright (c) Stichting Mathematisch Centrum, Amsterdam, 1985. */  
+    /* NetHack may be freely redistributed.  See [license] (iNetHack/blob/master/dat/license "License") for details. */  
 
-Changes you have to make yourself:
+## Changes you have to make yourself:
 
 sys/unix/Makefile.top:
 
@@ -17,7 +17,7 @@ include/config.h:
     // This #define should reflect PREFIX/GAMEDIR from Makefile.top
     #define HACKDIR "/Users/dirk/local/games/lib/nethackdir"
 
-After that it's the usual:
+## After that it's the usual:
 
 cd sys/unix  
 sh setup.sh bb  
