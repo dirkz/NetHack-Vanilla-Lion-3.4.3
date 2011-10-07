@@ -19,11 +19,11 @@ include/config.h:
 
 After that it's the usual:
 
-cd sys/unix
-sh setup.sh bb
-cd ../..
-make
-make install
+cd sys/unix  
+sh setup.sh bb  
+cd ../..  
+make  
+make install  
 
 Happy nethacking!
 
