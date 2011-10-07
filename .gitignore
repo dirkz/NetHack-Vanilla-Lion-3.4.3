@@ -17,6 +17,12 @@ xcuserdata
 # vi
 *.swp
 
+# NetHack executables
+
+src/Sysunix
+src/nethack
+util/recover
+
 # build directory
 build
 
