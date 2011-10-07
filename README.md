@@ -6,14 +6,14 @@ NetHack Vanilla 3.4.3 with patches for Lion
 Changes you have to make yourself:
 
 sys/unix/Makefile.top:
-...
-PREFIX	 = /Users/dirk/local # your own install directory
-...
-GAMEUID  = dirk # your username
+    ...
+    PREFIX	 = /Users/dirk/local # your own install directory
+    ...
+    GAMEUID  = dirk # your username
 
 include/config.h:
-// This #define should reflect PREFIX/GAMEDIR from Makefile.top
-##define HACKDIR "/Users/dirk/local/games/lib/nethackdir"
+    // This #define should reflect PREFIX/GAMEDIR from Makefile.top
+    #define HACKDIR "/Users/dirk/local/games/lib/nethackdir"
 
 After that it's the usual:
 
