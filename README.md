@@ -13,7 +13,7 @@ GAMEUID  = dirk # your username
 
 include/config.h:
 // This #define should reflect PREFIX/GAMEDIR from Makefile.top
-#define HACKDIR "/Users/dirk/local/games/lib/nethackdir"
+##define HACKDIR "/Users/dirk/local/games/lib/nethackdir"
 
 After that it's the usual:
 
